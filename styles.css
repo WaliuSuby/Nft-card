@@ -69,3 +69,50 @@ span{
 .small-img p{
     color: #4d627f;
 }
+
+
+
+
+@media screen and (max-width: 600px) {
+  .card-box {
+    width: 70%;
+    height: auto;
+    margin-top: 30%;
+    margin-left: 16%;
+    border-radius: 15px;
+    padding-bottom: 5%;
+  }
+
+  .card-txt h3 {
+    font-size: 1.1rem;
+  }
+
+  .card-txt p {
+    font-size: 0.85rem;
+    width: 60%;
+  }
+
+  .eth-tym {
+    flex-direction: flex;
+    align-items: space-between;
+    gap: 5px;
+  }
+
+  .small-img {
+    justify-content: flex-start;
+    padding: 5% 10%;
+  }
+
+  .small-img img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .card-box {
+    width: 60%;
+    height: auto;
+    margin-top: 5%;
+  }
+}
